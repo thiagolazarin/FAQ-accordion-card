@@ -1,7 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap');
 
-/* font-family: 'Outfit', sans-serif; */
-
 *{
     box-sizing: border-box;
     padding: 0;
@@ -33,7 +31,6 @@ body{
 
 .container .img{
     position: relative;
-    /* width: 100%; */
     right: 50px;
 }
 
