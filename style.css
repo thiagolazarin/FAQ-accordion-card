@@ -33,6 +33,7 @@ body{
 
 .container .img{
     position: relative;
+    /* width: 100%; */
     right: 50px;
 }
 
@@ -76,3 +77,15 @@ hr{
     background-color: white;
     opacity: 0.5;
 }
+
+@media (max-width: 625px){
+    .container{
+        flex-direction: column;
+        width: 80%;
+        
+    }
+    h1{
+        text-align: center;
+    }
+}
+

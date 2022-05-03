@@ -9,6 +9,7 @@ function firstQuestions(){
         if(toggle){
             toggle = false;
             answer1.style.display = 'inline'
+            question.style.color = 'orange'
             arrow1.style.transform = 'rotateX(180deg)'
             arrow1.style.transitionDuration = '500ms'
         }else{
@@ -35,11 +36,13 @@ function secondQuestion(){
         if(toggle){
             toggle = false;
             answer2.style.display = 'inline'
+            question.style.color = 'orange'
             arrow2.style.transform = 'rotateX(180deg)'
             arrow2.style.transitionDuration = '500ms'
         }else{
             toggle = true;
             answer2.style.display = 'none'
+            question.style.color ='hsl(240, 6%, 50%)'
             arrow2.style.transform = 'rotateX(0deg)'
         }
         
@@ -59,11 +62,13 @@ function thirdQuestion(){
         if(toggle){
             toggle = false;
             answer3.style.display = 'inline'
+            question.style.color = 'orange'
             arrow3.style.transform = 'rotateX(180deg)'
             arrow3.style.transitionDuration = '500ms'
         }else{
             toggle = true;
             answer3.style.display = 'none'
+            question.style.color ='hsl(240, 6%, 50%)'
             arrow3.style.transform = 'rotateX(0deg)'
         }
         
@@ -84,11 +89,13 @@ function forQuestion(){
         if(toggle){
             toggle = false;
             answer4.style.display = 'inline'
+            question.style.color = 'orange'
             arrow4.style.transform = 'rotateX(180deg)'
             arrow4.style.transitionDuration = '500ms'
         }else{
             toggle = true;
             answer4.style.display = 'none'
+            question.style.color ='hsl(240, 6%, 50%)'
             arrow4.style.transform = 'rotateX(180deg)'
         }
         
@@ -108,11 +115,13 @@ function fiveQuestion(){
         if(toggle){
             toggle = false;
             answer5.style.display = 'inline'
+            question.style.color = 'orange'
             arrow5.style.transform = 'rotateX(180deg)'
             arrow5.style.transitionDuration = '500ms'
         }else{
             toggle = true;
             answer5.style.display = 'none'
+            question.style.color ='hsl(240, 6%, 50%)'
             arrow5.style.transform = 'rotateX(180deg)'
         }
         
